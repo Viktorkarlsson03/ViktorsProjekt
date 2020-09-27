@@ -29,10 +29,14 @@ h1 {
   width: 350px;
   height: 100%;
   margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: thistle;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .Item:hover {
   transition: linear 100ms;
